@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85C0DAB9-C1E0-495F-8F00-BFFC8F404DD6}</ProjectGuid>
+    <RootNamespace>TaskManager</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddressChange.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="Delay.h" />
+    <ClInclude Include="Dia1.h" />
+    <ClInclude Include="Dia2.h" />
+    <ClInclude Include="Dia3.h" />
+    <ClInclude Include="Dia4.h" />
+    <ClInclude Include="Dia5.h" />
+    <ClInclude Include="Dia6.h" />
+    <ClInclude Include="Dia7.h" />
+    <ClInclude Include="DiaModule.h" />
+    <ClInclude Include="DiaPile.h" />
+    <ClInclude Include="DiaThread.h" />
+    <ClInclude Include="Directory.h" />
+    <ClInclude Include="Disk.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="FileAttr.h" />
+    <ClInclude Include="Import.h" />
+    <ClInclude Include="Md5.h" />
+    <ClInclude Include="MyTabCtrl.h" />
+    <ClInclude Include="Reloc.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Resoure.h" />
+    <ClInclude Include="Section.h" />
+    <ClInclude Include="SoftManage.h" />
+    <ClInclude Include="StartingItems.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TaskManager.h" />
+    <ClInclude Include="TaskManagerDlg.h" />
+    <ClInclude Include="Tls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddressChange.cpp" />
+    <ClCompile Include="Delay.cpp" />
+    <ClCompile Include="Dia1.cpp" />
+    <ClCompile Include="Dia2.cpp" />
+    <ClCompile Include="Dia3.cpp" />
+    <ClCompile Include="Dia4.cpp" />
+    <ClCompile Include="Dia5.cpp" />
+    <ClCompile Include="Dia6.cpp" />
+    <ClCompile Include="Dia7.cpp" />
+    <ClCompile Include="DiaModule.cpp" />
+    <ClCompile Include="DiaPile.cpp" />
+    <ClCompile Include="DiaThread.cpp" />
+    <ClCompile Include="Directory.cpp" />
+    <ClCompile Include="Disk.cpp" />
+    <ClCompile Include="Export.cpp" />
+    <ClCompile Include="FileAttr.cpp" />
+    <ClCompile Include="Import.cpp" />
+    <ClCompile Include="Md5.cpp" />
+    <ClCompile Include="MyTabCtrl.cpp" />
+    <ClCompile Include="Reloc.cpp" />
+    <ClCompile Include="Resoure.cpp" />
+    <ClCompile Include="Section.cpp" />
+    <ClCompile Include="SoftManage.cpp" />
+    <ClCompile Include="StartingItems.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="TaskManagerDlg.cpp" />
+    <ClCompile Include="Tls.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TaskManager.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1.cur" />
+    <None Include="res\TaskManager.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.ico" />
+    <Image Include="10.ico" />
+    <Image Include="11.ico" />
+    <Image Include="12.ico" />
+    <Image Include="13.ico" />
+    <Image Include="14.ico" />
+    <Image Include="15.ico" />
+    <Image Include="16.ico" />
+    <Image Include="2.ico" />
+    <Image Include="3.ico" />
+    <Image Include="4.ico" />
+    <Image Include="5.ico" />
+    <Image Include="6.ico" />
+    <Image Include="7.ico" />
+    <Image Include="8.ico" />
+    <Image Include="9.ico" />
+    <Image Include="res\TaskManager.ico" />
+    <Image Include="services.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="TaskManager.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

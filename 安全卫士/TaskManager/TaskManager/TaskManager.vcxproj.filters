@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主窗口">
+      <UniqueIdentifier>{27da7935-ec0c-44ad-bcb1-8a07ac8a336a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="选项卡">
+      <UniqueIdentifier>{32d048e7-5099-4fd6-9852-4454fbc28f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VS清理">
+      <UniqueIdentifier>{58c4ccec-9c16-471a-9061-586a821d5594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件查看">
+      <UniqueIdentifier>{15413937-1201-4aeb-99fc-3223e41d1179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具">
+      <UniqueIdentifier>{6c879f06-4acb-46ea-83bf-6b5e8b433310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\地址转换">
+      <UniqueIdentifier>{75782cca-8c88-4092-84ca-ada818846dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\数据目录表">
+      <UniqueIdentifier>{ea122ae7-c9bf-4328-a7a4-14a825aebd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\导出表窗口">
+      <UniqueIdentifier>{197a610f-b939-4493-bd64-057dbf9f79ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\导入表窗口">
+      <UniqueIdentifier>{bf013b26-ad8f-479c-8710-18ac1434259d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\资源表">
+      <UniqueIdentifier>{ada142cf-4184-42e5-9762-12177ca4d06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\重定位表">
+      <UniqueIdentifier>{34f03b60-5c68-4a66-9a5e-aa61f092796b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\PE主窗口">
+      <UniqueIdentifier>{e5c3775f-8b78-418b-a65c-8f759cab6587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\区段表头">
+      <UniqueIdentifier>{bd48864b-c042-4187-aeb5-abd11a48a2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\TLS表">
+      <UniqueIdentifier>{9b60c6dd-71a3-419a-a0ac-3ae812eab317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE工具\延迟载入表">
+      <UniqueIdentifier>{1a7a04ee-8f52-4904-9fdc-1bda3c30a114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器">
+      <UniqueIdentifier>{5786d0ee-8e74-41f5-8257-f8961a747ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历窗口">
+      <UniqueIdentifier>{35580c25-ed91-4dc9-ad36-be66c255bb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历堆">
+      <UniqueIdentifier>{684f0e50-bb03-4a14-9019-89c89b3075c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历进程">
+      <UniqueIdentifier>{8c7a69e8-f76b-45c2-80cd-fdfb49498d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历模块">
+      <UniqueIdentifier>{0156db1d-8042-4aef-9737-61a5e237c864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历线程">
+      <UniqueIdentifier>{1c6ccd5e-1465-43c0-84f7-62ae830a2c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="任务管理器\遍历服务">
+      <UniqueIdentifier>{2aecc2b2-8d0e-4765-9f4c-a443e81d5cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒查杀">
+      <UniqueIdentifier>{8d87c2b3-6f6e-483f-a15a-4e21faa8bc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒查杀\查杀">
+      <UniqueIdentifier>{0925e67d-5dc0-4f5f-bbc1-17ef2074a903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒查杀\MD5">
+      <UniqueIdentifier>{3f9da429-30d3-4c7d-842b-443ccfa84016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="病毒查杀\数据">
+      <UniqueIdentifier>{2e81ce35-5086-480d-938a-160b807d8e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件查看\文件查看窗口">
+      <UniqueIdentifier>{21328768-7db1-44fe-acc4-f419558800c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件查看\磁盘">
+      <UniqueIdentifier>{4a179a23-93e9-450b-8be5-612193b1bb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件查看\文件属性">
+      <UniqueIdentifier>{cf7552b1-e42e-4832-9e28-ea116e076205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历窗口\窗口">
+      <UniqueIdentifier>{fdc178b4-e942-44e6-aa4d-3fa1b6a8cff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历窗口\启动项">
+      <UniqueIdentifier>{2eb97f3a-1652-4ba8-9d83-9a022d6b61b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="任务管理器\遍历窗口\软件管理">
+      <UniqueIdentifier>{de972542-58de-4f4d-9b88-64c2450d1d4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TaskManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManagerDlg.h">
+      <Filter>主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>选项卡</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia1.h">
+      <Filter>任务管理器\遍历进程</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaThread.h">
+      <Filter>任务管理器\遍历线程</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaModule.h">
+      <Filter>任务管理器\遍历模块</Filter>
+    </ClInclude>
+    <ClInclude Include="DiaPile.h">
+      <Filter>任务管理器\遍历堆</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia3.h">
+      <Filter>VS清理</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressChange.h">
+      <Filter>PE工具\地址转换</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.h">
+      <Filter>PE工具\数据目录表</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia5.h">
+      <Filter>PE工具\PE主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Export.h">
+      <Filter>PE工具\导出表窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>PE工具\导入表窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Resoure.h">
+      <Filter>PE工具\资源表</Filter>
+    </ClInclude>
+    <ClInclude Include="Reloc.h">
+      <Filter>PE工具\重定位表</Filter>
+    </ClInclude>
+    <ClInclude Include="Section.h">
+      <Filter>PE工具\区段表头</Filter>
+    </ClInclude>
+    <ClInclude Include="Tls.h">
+      <Filter>PE工具\TLS表</Filter>
+    </ClInclude>
+    <ClInclude Include="Delay.h">
+      <Filter>PE工具\延迟载入表</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia6.h">
+      <Filter>任务管理器\遍历服务</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia7.h">
+      <Filter>病毒查杀\查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>病毒查杀\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>病毒查杀\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia4.h">
+      <Filter>文件查看\文件查看窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Disk.h">
+      <Filter>文件查看\磁盘</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAttr.h">
+      <Filter>文件查看\文件属性</Filter>
+    </ClInclude>
+    <ClInclude Include="Dia2.h">
+      <Filter>任务管理器\遍历窗口\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="StartingItems.h">
+      <Filter>任务管理器\遍历窗口\启动项</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftManage.h">
+      <Filter>任务管理器\遍历窗口\软件管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManagerDlg.cpp">
+      <Filter>主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>选项卡</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia1.cpp">
+      <Filter>任务管理器\遍历进程</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaThread.cpp">
+      <Filter>任务管理器\遍历线程</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaModule.cpp">
+      <Filter>任务管理器\遍历模块</Filter>
+    </ClCompile>
+    <ClCompile Include="DiaPile.cpp">
+      <Filter>任务管理器\遍历堆</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia3.cpp">
+      <Filter>VS清理</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressChange.cpp">
+      <Filter>PE工具\地址转换</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory.cpp">
+      <Filter>PE工具\数据目录表</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia5.cpp">
+      <Filter>PE工具\PE主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Export.cpp">
+      <Filter>PE工具\导出表窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Import.cpp">
+      <Filter>PE工具\导入表窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Resoure.cpp">
+      <Filter>PE工具\资源表</Filter>
+    </ClCompile>
+    <ClCompile Include="Reloc.cpp">
+      <Filter>PE工具\重定位表</Filter>
+    </ClCompile>
+    <ClCompile Include="Section.cpp">
+      <Filter>PE工具\区段表头</Filter>
+    </ClCompile>
+    <ClCompile Include="Tls.cpp">
+      <Filter>PE工具\TLS表</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>PE工具\延迟载入表</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia6.cpp">
+      <Filter>任务管理器\遍历服务</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia7.cpp">
+      <Filter>病毒查杀\查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>病毒查杀\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia4.cpp">
+      <Filter>文件查看\文件查看窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Disk.cpp">
+      <Filter>文件查看\磁盘</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAttr.cpp">
+      <Filter>文件查看\文件属性</Filter>
+    </ClCompile>
+    <ClCompile Include="Dia2.cpp">
+      <Filter>任务管理器\遍历窗口\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="StartingItems.cpp">
+      <Filter>任务管理器\遍历窗口\启动项</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftManage.cpp">
+      <Filter>任务管理器\遍历窗口\软件管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TaskManager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TaskManager.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TaskManager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="5.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="6.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="7.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="8.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="9.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="10.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="11.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="12.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="13.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="14.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="15.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="16.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="services.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
